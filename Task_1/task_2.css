@@ -1,0 +1,14 @@
+.top{
+	background: #808080;
+}
+.top ul{
+	float: right;
+}
+.top li{
+	width: 110px;
+	float: right;
+}
+.top a{
+	color: white;
+	text-decoration: none;
+}
