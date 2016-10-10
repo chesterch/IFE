@@ -3,6 +3,12 @@
 	padding: 0px;
 	font-family:"Microsoft YaHei";
 }
+a{
+	color: blue;
+}
+a:hover{
+	color: #ee2323;
+}
 body{
 	background: #ddd;
 }
@@ -23,6 +29,9 @@ body{
 .top a{
 	color: white;
 	text-decoration: none;
+}
+.top a:hover{
+	color: #ee2323;
 }
 .top img{
 	position: relative;
