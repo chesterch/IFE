@@ -88,6 +88,10 @@ thead{
 tfoot{
 	background-color: #a1a1a1;
 }
+.celan{
+	border-left: 5px solid #aaa;
+	padding-left: 10px;
+}
 form{
 	position: relative;
 	margin-left: 10%;
