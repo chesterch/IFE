@@ -1,14 +1,23 @@
-*{margin: 0;padding: 0;}
+*{margin: 0;padding: 0;font-family:"Microsoft Yahei";outline:0px;}
 body{background: #ddd;}
 
 .top{background: #404040;width:100%;height: 75px;min-width: 600px;}
 .top img{position: relative;left: 25px;top:5px;}
-.top ul{position:relative;float: right;top: 18px;font-size: 14px;}
+.top ul{position:relative;float: right;top: 23px;font-size: 14px;}
 .top li{width: 90px;float: left;}
 .top a{color:white;text-decoration: none;}
 .top a:hover{color: #ee2323;}
 
-.right{float:right;background: #29A9D9;width: 400px;margin: 15px;}
+.right{float:right;background: #fff;width: 400px;margin: 15px;border:1px solid #aaa;box-shadow: 2px 2px 3px #555;}
+aside h4{padding:17px;border-left:5px solid #808080;margin: 12px;}
+.right div{padding: 5px;}
+.right span{position: relative;right: 260px;float:right;}
+.right input,.cityname,textarea,label{position: relative;left: 150px;}
+.right p{position:relative;left:155px;font-size: 0.9em;color:#999;margin-top: 4px;margin-bottom: 10px;}
+.submit input{width:320px;height:45px;background:#0934bb;border-radius: 7px;left:50%;margin-left:-160px; font-size: 1.3em;color:white;}
+
+
 .left{background: #D8BC35;margin-right: 420px;height: 130px;}
+.clear{clear:both;}
 .content{min-width: 600px;}
 .footer{background: #330909;width: 100%;height: 30px;min-width: 600px;}
