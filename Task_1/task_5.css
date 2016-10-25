@@ -13,9 +13,8 @@ aside h4{padding:17px;border-left:5px solid #808080;margin: 12px;}
 .right div{padding: 5px;}
 .right span{position: relative;right: 260px;float:right;}
 .right input,.cityname,textarea,label{position: relative;left: 150px;}
-.right p{position:relative;left:155px;font-size: 0.9em;color:#999;margin-top: 4px;margin-bottom: 10px;}
 .submit input{width:320px;height:45px;background:#0934bb;border-radius: 7px;left:50%;margin-left:-160px; font-size: 1.3em;color:white;}
-
+.right p{margin-left:155px;font-size: 0.9em;color:#999;margin-top: 4px;margin-bottom: 10px;}
 
 .left{background: #D8BC35;margin-right: 420px;height: 130px;}
 .clear{clear:both;}
