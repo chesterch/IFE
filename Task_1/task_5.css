@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+body{background: #ddd;}
+
+.top{background: #404040;width:100%;height: 75px;min-width: 600px;}
+.top img{position: relative;left: 25px;top:5px;}
+.top ul{position:relative;float: right;top: 18px;font-size: 14px;}
+.top li{width: 90px;float: left;}
+.top a{color:white;text-decoration: none;}
+.top a:hover{color: #ee2323;}
+
+.right{float:right;background: #29A9D9;width: 400px;margin: 15px;}
+.left{background: #D8BC35;margin-right: 420px;height: 130px;}
+.content{min-width: 600px;}
+.footer{background: #330909;width: 100%;height: 30px;min-width: 600px;}
