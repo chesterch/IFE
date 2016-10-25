@@ -21,34 +21,36 @@
 		<!--右边侧边栏-->
 		<div class="right">
 			<aside>
-				<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+				<h4>这里以后是一个侧栏，这是侧栏的标题</h4>
 				<form action="#" method="post">
-					<div class="mail"><label>请输入邮箱</label><input type="text" value="这是一个文本输入框"></div>
+					<div class="mail"><input type="text" value="这是一个文本输入框"><span>请输入邮箱</span></div>
 					<p>邮箱地址请按要求格式输入</p>
-					<div class="pwd"><label>请输入密码</label><input type="password"></div>
-					<div class="pwd"><label>请重复输入密码</label><input type="password"></div>
+					<div class="pwd"><input type="password"><span>请输入密码</span></div>
+					<div class="pwd"><input type="password"><span>请重复输入密码</span></div>
 					<p>密码为6-16位英文数字</p>
-					<div class="sex"><label>性别</label><input type="radio" name="sex">男<input type="radio" name="sex">女</div>
+					<div class="sex">
+						<input type="radio" name="sex" checked><label>男</label>
+						<input type="radio" name="sex"><label>女</label>
+						<span>性别</span>
+					</div>
 					<div class="city">
-						<label>城市</label>
-						<select class="city" name="city">
+						<select class="cityname" name="city">
 							<option value="beijing">北京</option>
 							<option value="shanghai">上海</option>
 							<option value="chongqing">重庆</option>
 							<option value="guangzhou">广州</option>
 						</select>
+						<span>城市</span>
 					</div>
 					<div class="hobby">
-						<label>爱好</label>
-						<input type="checkbox" value="sport">运动
-						<input type="checkbox" value="art">艺术
-						<input type="checkbox" value="science">科学
+						<input type="checkbox" value="sport"><label>运动</label>
+						<input type="checkbox" value="art"><label>艺术</label>
+						<input type="checkbox" value="science"><label>科学</label>
+						<span>爱好</span>
 					</div>
 					<div class="description">
-						<label>个人描述</label>
-						<textarea name="descripe" cols="20" rows="10">
-							这是一个多行输入框，请输入你的个人描述。
-						</textarea>
+						<textarea name="descripe" cols="25" rows="8">这是一个多行输入框，请输入你的个人描述。</textarea>
+						<span>个人描述</span>
 					</div>
 					<div class="submit"><input type="submit" value="确认提交" /></div>
 				</form>
@@ -56,6 +58,7 @@
 		</div>
 
 		<div class="left"></div>
+		<div class="clear"></div>
 	</div>
 	<div class="footer"></div>
 </body>
