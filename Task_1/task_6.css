@@ -35,13 +35,27 @@ body{background: #8F8C8C;}
 .move span{color:#cd4a48;font-style: Italic;}
 
 .bottom{height: 580px;margin:20px auto;}
-.bottom_left1{width:415px;border-bottom: 2px solid #11456b;}
-.bottom_left2{width: 415px;}
-.bottom_right1{}
-.bottom_right2{}
+.bottom_left{width:415px;}
+.bottom_right{width:458px;float: right;}
+
+.bottom_left1{border-bottom: 2px solid #11456b;}
+.bottom_left2{}
 .font7{font-size: 72px;color:#f5e327;font-family: "simHei";font-weight: bold;font-style: italic;}
 .font8{font-size: 42px;color:#11456b;font-family: "simHei";font-weight: bold;line-height: 16px;}
 .font9{font-size: 33px;color:#11456b;font-family: "simHei";font-weight: bold;margin: 5px 0px;}
-.bottom_left2 p{font-size: 12px;color:#767776;font-family: "simSun";line-height: 16px;}
-.bottom_left2 img{float: right;margin:10px;}
-.bottom_left2 span{font-size: 70px;color:#f5e327;font-family: "Microsoft YaHei";display: block;float: left;}
+.essay{font-size: 12px;color:#767776;font-family: "simSun";line-height: 16px;margin-top: 10px;text-align: justify;}
+.essay2{text-indent: 2em;margin: 0px;}
+.bottom_left2 img{float: right;margin:10px 0px 10px 13px;}
+.bottom_left2 span{line-height:70px;font-size: 70px;color:#f5e327;font-family: "Microsoft YaHei";float: left;padding-right: 10px;}
+
+.bottom_right1{}
+.bottom_right2{height: 305px;background: #ccc;position: relative;top: -53px;}
+.color_3{width:458px;height:70px;background: rgba(0, 0, 0, 0.5);display: inline-block;position: relative;top: -73px;}
+.color_3 div{width: 350px;height: 55px;border-left: 4px solid #73b16a;margin:8px auto;color:#fff;font-size: 28px;
+	font-family: "Microsoft YaHei";line-height: 55px;padding-left:10px;}
+.color_3 div>span{font-size: 14px;color:#72b16a;font-family: "Microsoft YaHei";font-style: italic;line-height: 140%;margin-left: 15px;}
+.bottom_right2 p{font-size: 15px;color:#5a5b5b;font-family: "simSun";font-style: italic;line-height: 12px;padding: 12px;text-align: right;}
+.bottom_right2 p span{border: 6px solid transparent;border-top:7px solid #000;position: relative;top:12px;margin-right: 12px;}
+.back_red{width:260px;height: 160px;position: absolute;bottom: 0px;background: #d45d5c;color:#FFF;}
+.back_red span{font-size: 110px;font-family: "Microsoft YaHei";line-height:160px;}
+.back_red span:nth-child(2){display:inline-block;width:50px;height: 86px;border-left: 3px solid #FFF;}
