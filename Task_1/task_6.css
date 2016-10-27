@@ -7,8 +7,9 @@ body{background: #8F8C8C;}
 .header p{color:#FFF;font-family: "simHei";font-size: 12px;margin-top: -15px;}
 .header p:nth-child(3){float: right;color:#D45C5D;}
 
-.content{width: 892px;margin: 40px auto;}
-.footer{width: 892px;height: 61px;background: #f00;margin: 0 auto;}
+.content{width: 892px;margin: 30px auto;}
+.footer{width: 892px;height: 61px;margin: 0 auto;border-top: 2px solid #93838c;clear: both;}
+.footer p{color:#D45C5D;font-family: "simHei";font-size: 12px;float: right;}
 
 .top{height: 301px;}
 .top_left{width:640px;height:300px;background: url('Image/6_1.jpg');}
@@ -34,7 +35,7 @@ body{background: #8F8C8C;}
 .move p{font-size: 13px;font-family: "Microsoft YaHei";}
 .move span{color:#cd4a48;font-style: Italic;}
 
-.bottom{height: 580px;margin:20px auto;}
+.bottom{height: 560px;margin:20px auto 0px;}
 .bottom_left{width:415px;}
 .bottom_right{width:458px;float: right;}
 
@@ -57,5 +58,11 @@ body{background: #8F8C8C;}
 .bottom_right2 p{font-size: 15px;color:#5a5b5b;font-family: "simSun";font-style: italic;line-height: 12px;padding: 12px;text-align: right;}
 .bottom_right2 p span{border: 6px solid transparent;border-top:7px solid #000;position: relative;top:12px;margin-right: 12px;}
 .back_red{width:260px;height: 160px;position: absolute;bottom: 0px;background: #d45d5c;color:#FFF;}
-.back_red span{font-size: 110px;font-family: "Microsoft YaHei";line-height:160px;}
-.back_red span:nth-child(2){display:inline-block;width:50px;height: 86px;border-left: 3px solid #FFF;}
+.back_red span{font-size: 110px;font-family: "Microsoft YaHei";line-height:160px;padding-left: 4px;}
+.back_red div{display:inline-block;width:180px;height: 86px;border-left: 3px solid #FFF;}
+.back_red div>span{font-size: 21px;font-family: "simHei";line-height: 24px;display:inline-block;font-style: italic;padding-left: 8px;}
+.back_red div>span:nth-child(3),.back_red div>span:nth-child(4){font-size: 12px;font-style: normal;line-height: 6px;}
+.back_right{width:160px;height: 160px;position: absolute;bottom: 0px;left:280px;color:#5a5b5b;}
+.back_right p{font-size: 14px;font-family: "simHei";font-style: italic;line-height: 16px;padding: 0px;text-align: left;}
+.mark1{font-size: 72px;font-family:"simHei";color:#d45b5c;float:left;height: 30px;margin:-20px 0px 0 -45px;}
+.mark2{font-size: 72px;font-family:"simHei";color:#d45b5c;float:right;height: 30px;margin:-20px -20px 0px 0px;}
