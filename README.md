@@ -1,5 +1,4 @@
 #Study in IFE
-DEMO:
 Task1:http://chesterch.github.io/IFE/Task_1/task_1.html 
 Task2:http://chesterch.github.io/IFE/Task_1/task_2.html 
 Task3:http://chesterch.github.io/IFE/Task_1/task_3.html 
