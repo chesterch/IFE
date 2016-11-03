@@ -1,92 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="task_7.css">
 	<title>No.7</title>
 </head>
 <body>
-	<div class="header">
+	<div id="header">
 		<img src="Image/7_1.png" alt="webLogo">
-		<img src="Image/7_2.png" alt="webTitle">
-		<dl>
-			<dd>首页</dd>
-			<dd>最新活动</dd>
-			<dd>项目介绍</dd>
-			<dd>爱心社区</dd>
-			<dd>关于我们</dd>
-		</dl>
-		<img src="Image/7_3.png" alt="webUser">
-		<span>登陆</span>
+		<h3>新世界</h3>
+		<div class="header_right">
+			<dl>
+				<dd>首页</dd>
+				<dd>最新活动</dd>
+				<dd>项目介绍</dd>
+				<dd>爱心社区</dd>
+				<dd>关于我们</dd>
+			</dl>
+			<img src="Image/7_3.png" alt="webUser">
+			<span><a href="#">登陆</a></span>
+		</div>
 	</div>
 	<div class="container">
 		<div class="mainPicture">
-			<img src="Image/7_4.png" alt="mainPicture">
-			<p class="font_1">Time of new life</p>
-			<p class="font_2">新时代，年轻的人们让我们一起<br>体验新生活，享受新生活</p>
-			<button class="star">开始体验</button>
+			<div>
+				<p class="font_1">Time of new life</p>
+				<p class="font_2">新时代，年轻的人们让我们一起<br>体验新生活，享受新生活</p>
+				<button class="star">开始体验</button>
+			</div>
+			<img src="Image/7_4.jpg" alt="mainPicture">
 		</div>
 		<div class="columns">
 			<div class="col_1">
 				<img src="Image/7_5.png" alt="icon1">
-				<div class="col_p">打造全新世界观，让你更爱你的生活</div>
+				<div class="col_p"><p>打造全新世界观，让你更爱你的生活</p></div>
 			</div>
 			<div class="col_2">
 				<img src="Image/7_6.png" alt="icon2">
-				<div class="col_p">丰富多彩的公益活动，发挥新世界的主人公意识</div>
+				<div class="col_p"><p>丰富多彩的公益活动，发挥新世界的主人公意识</p></div>
 			</div>
 			<div class="col_3">
 				<img src="Image/7_7.png" alt="icon3">
-				<div class="col_p">时尚的新理念，超前体验未知的生活</div>
+				<div class="col_p"><p>时尚的新理念，超前体验未知的生活</p></div>
 			</div>
 			<div class="col_4">
 				<img src="Image/7_8.png" alt="icon4">
-				<div class="col_p">完善的培养机制，培养你全新的世界观</div>
+				<div class="col_p"><p>完善的培养机制，培养你全新的世界观</p></div>
 			</div>
 		</div>
 		<div class="more">
-			<img src="Image/7_9.png" alt="webLogo">
-			<p>关于新世界，你不知道的还有什么？</p>
+			<div class="more_con">
+				<img src="Image/7_9.png" alt="webLogo">
+				<p>关于新世界，你不知道的还有什么？</p>				
+			</div>
 		</div>
 		<div class="city">
-			<img src="Image/7_10.png" alt="cityBg">
-			<p class="font_4">查找新世界城市活动信息</p>
-			<p class="font_5">每个城市都有不同的活动信息，请自主查询您所需要了解的城市</p>
-			<div class="buttons">
-				<select name="country" id="country">
-					<option value="China">中国</option>
-					<option value="America">美国</option>
-				</select>
-				<select name="province" id="province">
-					<option value="BeiJing">北京市</option>
-					<option value="TianJin">天津市</option>
-					<option value="HeBei">河北省</option>
-					<option value="ShanXi">陕西省</option>
-					<option value="NeiMengGu">内蒙古自治区</option>
-					<option value="LiaoNing">辽宁省</option>
-				</select>
-				<select name="city" id="city">
-					<option value="ChengShi">城市</option>
-				</select>
-				<button>搜索</button>
+			<img src="Image/7_10.jpg" alt="cityBg">
+			<div class="city_con">
+				<p class="font_4">查找新世界城市活动信息</p>
+				<div class="city_line"></div>
+				<p class="font_5">每个城市都有不同的活动信息，请自主查询您所需要了解的城市</p>
+				<div class="buttons">
+					<div class="select_1">
+						国家
+						<ul>
+							<li>中国</li>
+							<li>美国</li>
+						</ul>
+					</div>
+					<div class="select_2">
+						省份
+						<ul>
+							<li>北京市</li>
+							<li>天津市</li>
+                            <li>河北省</li>
+                            <li>陕西省</li>
+                            <li>内蒙古自治区</li>
+							<li>辽宁省</li>
+						</ul>
+					</div>
+					<div class="select_3">
+						城市
+					</div>
+					<input type="submit" value="搜索">
+				</div>
 			</div>
 		</div>
 		<div class="activity">
-			<div class="box">
+			<div class="box box1">
 				<img src="Image/7_11.png" alt="boxPic">
 				<p class="font_6">北京活动</p>
 				<p class="font_7">新社区大联盟</p>
 			</div>
-			<div class="box">
+			<div class="box box2">
 				<p class="font_6">上海活动</p>
 				<p class="font_7">夜上海新景观探索</p>
 				<img src="Image/7_12.png" alt="boxPic">
 			</div>
-			<div class="box">
+			<div class="box box3">
 				<img src="Image/7_13.png" alt="boxPic">
 				<p class="font_6">深圳活动</p>
 				<p class="font_7">全新海岸线观点站</p>
 			</div>
-			<div class="box">
+			<div class="box box4">
 				<img src="Image/7_14.png" alt="boxPic">
 				<p class="font_6">香港活动</p>
 				<p class="font_7">奢侈消费大派送</p>
@@ -94,7 +110,7 @@
 		</div>
 		<div class="toggle">
 			<div class="toggle_left">
-				<img src="Image/7_15.png" alt="toggle_Bg">
+				<img src="Image/7_15.jpg" alt="toggle_Bg">
 				<div class="toggle_text">
 					<p class="font_8">新世界</p>
 					<p class="font_9">TIME</p>
@@ -102,80 +118,102 @@
 					<p class="font_11">2016.10.31</p>
 				</div>
 			</div>
+			<div class="toggle_tri"></div>
 			<div class="toggle_right">
-				<h4>新世界/<span>01</span></h4>
-				<p class="font_12">新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚</p>
-				<button class="more">更多详情</button>
-				<span></span>
-				<span></span>
-				<span></span>
+				<div class="toggle_con">
+					<h4>新世界/<span>01</span></h4>
+					<p class="font_12">新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚新世界引领世界潮流新世界引领世界时尚</p>
+					<button class="more">更多详情</button>
+					<div class="circle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="about">
+			<div class="about_left">
+				<div class="about_p">
+					<p class="font_13">新时代</p>
+					<p class="font_13">关于爱生活的我们</p>
+					<div class="about_line"></div>
+					<button class="about_btn">查看更多</button>					
+				</div>
+			</div>
+			<div class="about_center">
+				<div class="about_p">
+					<p class="font_13">新时代</p>
+					<p class="font_13">关于爱生活的我们</p>
+					<div class="about_line"></div>
+					<button class="about_btn">查看更多</button>					
+				</div>
+			</div>
 			<div class="about_right">
 				<img src="Image/7_16.png" alt="Picture">
-			</div>
-			<div class="about_left">
-				<p class="font_13">新时代</p>
-				<p class="font_13">关于爱我们的生活</p>
-				<button class="about_btn">查看更多</button>
-			</div>
-			<div class="center">
-				<p class="font_13">新时代</p>
-				<p class="font_13">关于爱我们的生活</p>
-				<button class="about_btn">查看更多</button>
 			</div>
 		</div>
 		<div class="volunteer">
 			<div class="vol_top">
 				<p class="font_14">成为我们的志愿者</p>
+				<div class="vol_line"></div>
 				<p class="font_15">新世界的大家庭需要每一个爱生活的人加入，如果你够年轻，有梦想，有激情</p>
 				<p class="font_15">那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
-			</div>
-			<div class="vol_left">
-				<div class="vol_left_1">
-					<h3 class="font_16">新世界志愿者协议</h3>
-					<p class="font_17">加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等资源的原则......</p>
-					<p class="font_18">more</p>
-				</div>
-				<div class="vol_left_2">
-					<h3 class="font_16">新世界志愿者权利</h3>
-					<p class="font_17">
-						新世界志愿者享受新世界内部所有资源共享权利，并且享受所在四新世界活动的优先参与资格
-					</p>
-					<p class="font_18">more</p>					
-				</div>
-				<div class="vol_left_3">
-					<h3 class="font_16">更多条款</h3>
-					<p class="font_18">more</p>
-				</div>
 			</div>
 			<div class="vol_right">
 				<input type="text" placeholder="姓名：">
 				<input type="text" placeholder="年龄：">
 				<input type="text" placeholder="联系方式：">
 				<input type="text" placeholder="联系地址：">
-				<textarea cols="30" rows="10" placeholder="请简单的描述您梦想中的生活："></textarea>
+				<textarea cols="30" rows="7" placeholder="请简单的描述您梦想中的生活："></textarea>
 				<button>提交申请</button>
 			</div>
+			<div class="vol_left">
+				<div class="vol_left_1">
+					<p class="font_16">新世界志愿者协议</p>
+					<p class="font_17">加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等资源的原则......</p>
+					<p class="font_18">more</p>
+					<div class="vol_tri"></div>
+					<div class="clear"></div>	
+				</div>
+				<div class="vol_left_2">
+					<p class="font_16">新世界志愿者权利</p>
+					<p class="font_17">
+						新世界志愿者享受新世界内部所有资源共享权利，并且享受所在四新世界活动的优先参与资格
+					</p>
+					<p class="font_18">more</p>	
+					<div class="vol_tri"></div>	
+					<div class="clear"></div>			
+				</div>
+				<div class="vol_left_3">
+					<p class="font_16">更多条款</p>
+					<p class="font_18">more</p>
+					<div class="vol_tri"></div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
 		</div>
 		<div class="contact">
-			<p class="font_19">联系我们</p>
-			<p class="font_20">为了更好的获取我们最新的产品资讯，您也可以留下您的电子邮箱快速的订阅我们的产品资讯</p>
-			<p class="font_20">也可以通过任何方式关注我们动态</p>
-			<input type="text" placeholder="someone@email.com">
-			<input type="submit">
-			<div class="contact_way">
-				<img src="Image/7_17.png" alt="QQ">
-				<img src="Image/7_18.png" alt="WeiBo">
-				<img src="Image/7_19.png" alt="Twitter">
-				<img src="Image/7_20.png" alt="all">
+			<div class="contact_cen">
+				<p class="font_19">联系我们</p>
+				<p class="font_20">为了更好的获取我们最新的产品资讯，您也可以留下您的电子邮箱快速的订阅我们的产品资讯</p>
+				<p class="font_20">也可以通过任何方式关注我们动态</p>
+				<input type="email" placeholder="someone@email.com"><input type="submit">
+				<div class="contact_way">
+					<img src="Image/7_17.png" alt="QQ">
+					<img src="Image/7_18.png" alt="WeiBo">
+					<img src="Image/7_19.png" alt="Twitter">
+					<img src="Image/7_20.png" alt="all">
+				</div>				
 			</div>
 		</div>
 	</div>
 	<div class="footer">
 		<p class="font_21">@2016新世界</p>
-		<p class="font_22">Back to top</p>
+		<div>
+			<a href="#header" target="_self">返回顶部</a>
+		</div>
 	</div>
 </body>
 </html>
