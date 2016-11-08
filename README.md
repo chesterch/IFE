@@ -8,3 +8,4 @@
 * Task5:[http://chesterch.github.io/IFE/Task_1/task_5.html](http://chesterch.github.io/IFE/Task_1/task_5.html )
 * Task6:[http://chesterch.github.io/IFE/Task_1/task_6.html](http://chesterch.github.io/IFE/Task_1/task_6.html )
 * Task7:[http://chesterch.github.io/IFE/Task_1/task_7.html](http://chesterch.github.io/IFE/Task_1/task_7.html )
+* Task8:[http://chesterch.github.io/IFE/Task_1/task_8.html](http://chesterch.github.io/IFE/Task_1/task_8.html )
