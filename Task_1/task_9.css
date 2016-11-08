@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;}
+
+.header{height:56px;background: #2189BE;position: relative;}
+.header_right{position: absolute;right: 0;}
+.header_right>input{width:310px;height: 30px;border:0;outline:0;border-radius: 15px;}
+.header_login{display: inline-block;}
+.header_login>p{display: inline-block;}
+.header_left{width:34px;height: 34px;background: transparent;border-top: 17px solid #FFF;border-left: 17px solid #FFF;
+	box-sizing: border-box;position: relative;top: 10px;left: 49px;box-shadow: 0 0 2px #FFF}
+.header_left_inner{width:14px;height: 14px;background: #FFF;position: absolute;top: 0px;left:0px;border: 3px solid #2189BE;}
