@@ -6,18 +6,18 @@
 	<link rel="stylesheet" href="task_9.css" />
 </head>
 <body>
-	<div class="header">
-		<div class="header_right">
-			<div class="header_search">
+	<div class="top">
+		<div class="top_right">
+			<div class="top_search">
 				<input type="text" />
 			</div>
-			<div class="header_login">
-				<img src="9_2.png" alt="登录背景" />
+			<div class="top_login">
+				<img src="Image/9_2.png" alt="登录背景" />
 				<p class="font_1">登录</p>
 			</div>
 		</div>
-		<div class="header_left">
-			<div class="header_left_inner"></div>
+		<div class="top_left">
+			<div class="top_left_inner"></div>
 		</div>
 	</div>
 
@@ -39,14 +39,14 @@
 				<ul>
 					<li class="baobiao"><img src="Image/9_3.png" alt="项目符号" /><span>个人报表</span>
 						<ul class="wenjian">
-							<li><img src="Image/9_4.png" alt="项目符号" />文件一</li>
-							<li><img src="Image/9_5.png" alt="项目符号" /><span>文件二</span>
+							<li><div class="triangle"></div><img src="Image/9_4.png" alt="项目符号" />文件一</li>
+							<li><div class="triangle triangle2"></div><img src="Image/9_5.png" alt="项目符号" /><span>文件二</span>
 								<ul class="wendang">
 									<li><img src="Image/9_6.png" alt="项目符号" /><span>文档1</span></li>
 									<li><img src="Image/9_7.png" alt="项目符号" />文档1</li>
 								</ul>
 							</li>
-							<li><img src="Image/9_4.png" alt="项目符号" />文件三</li>
+							<li><div class="triangle"></div><img src="Image/9_4.png" alt="项目符号" />文件三</li>
 						</ul>
 					</li>
 					<li><img src="Image/9_8.png" alt="项目符号" />个人收藏</li>
@@ -55,6 +55,65 @@
 					<li><img src="Image/9_8.png" alt="项目符号" />成长记录</li>
 					<li><img src="Image/9_10.png" alt="项目符号" />账户信息</li>
 				</ul>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="header">
+				C站 &nbsp;/ &nbsp;个人报表 / &nbsp;文件一 &nbsp;/ &nbsp;<span>文档一</span>
+			</div>
+			<div class="tabels">
+				<div class="search">
+					<div class="search_1">
+						查找项<select name="search_1" id="search_1">
+							<option value="第一项">第一项</option>
+							<option value="第二项">第二项</option>
+							<option value="第三项">第三项</option>
+							<option value="第四项">第四项</option>
+							<option value="第五项">第五项</option>
+						</select>
+					</div>
+					<div class="search_2">
+						买方<select name="search_mf" id="search_mf">
+							<option value="小A">小A</option>
+							<option value="小B">小B</option>
+							<option value="小C">小C</option>
+							<option value="小D">小D</option>
+						</select>
+						卖方<select name="search_mf2" id="search_mf2">
+							<option value="小A">小A</option>
+							<option value="小B">小B</option>
+							<option value="小C" selected>小C</option>
+							<option value="小D">小D</option>
+						</select>
+					</div>
+					<div class="search_3">
+						日期<input type="text" value="2016-04-01" /> 
+						总耗时<select name="date" id="date">
+							<option value="2tian">2天</option>
+							<option value="4tian">4天</option>
+							<option value="6tian">6天</option>
+							<option value="8tian">8天</option>
+							<option value="10tian" selected>10天</option>
+						</select>
+						人数<select name="people" id="people">
+							<option value="4people">4人</option>
+							<option value="8people">8人</option>
+							<option value="10people" selected>10人</option>
+							<option value="15people">15人</option>
+							<option value="20people">20人</option>
+						</select>
+						成交项<select name="xiangmu" id="xingmu">
+							<option value="10xiang">10项</option>
+							<option value="20xiang">20项</option>
+							<option value="30xiang">30项</option>
+							<option value="40xiang">40项</option>
+						</select>
+					</div>
+					<div class="search_4">
+						<input type="submit" value="搜索" />
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
