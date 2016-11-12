@@ -9,5 +9,5 @@
 * Task6:[http://chesterch.github.io/IFE/Task_1/task_6.html](http://chesterch.github.io/IFE/Task_1/task_6.html )
 * Task7:[http://chesterch.github.io/IFE/Task_1/task_7.html](http://chesterch.github.io/IFE/Task_1/task_7.html )
 * Task8:[http://chesterch.github.io/IFE/Task_1/task_8.html](http://chesterch.github.io/IFE/Task_1/task_8.html )
-* Task9:[http://chesterch.github.io/IFE/Task_1/task_9.html](http://chesterch.github.io/IFE/Task_1/task_9.html )(不完全品)
+* Task9(不完全品):[http://chesterch.github.io/IFE/Task_1/task_9.html](http://chesterch.github.io/IFE/Task_1/task_9.html )
 * Task10:[http://chesterch.github.io/IFE/Task_1/task_10.html](http://chesterch.github.io/IFE/Task_1/task_10.html )
