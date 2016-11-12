@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>No.10</title>
+	<style>
+		.container{display: flex;border: 1px solid #AAA;align-items: center;justify-content: space-between;}
+		.container>div{width: 150px;margin:20px;}
+		.div_1{height: 120px;border: 1px solid #F00;}
+		.div_2{height: 100px;border: 1px solid #F00;}
+		.div_3{height: 40px;border: 1px solid #F00;}
+		.div_4{height: 200px;border: 1px solid #00F;}
+
+		@media screen and (max-width:640px) {
+			.container{display: flex;border: 1px solid #AAA;align-items:flex-start;flex-wrap: wrap;justify-content: space-between;}
+			.container>div{width: 150px;margin:20px;}
+			.div_1{height: 120px;border: 1px solid #F00;order:2;}
+			.div_2{height: 100px;border: 1px solid #F00;order:3;}
+			.div_3{height: 40px;border: 1px solid #F00;order:4;}
+			.div_4{height: 200px;border: 1px solid #00F;order:1;}			
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="div_1"></div>
+		<div class="div_2"></div>
+		<div class="div_3"></div>
+		<div class="div_4"></div>
+	</div>
+</body>
+</html>
