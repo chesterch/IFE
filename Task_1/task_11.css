@@ -1,0 +1,7 @@
+*{padding: 0;margin: 0;font-family: "Microsoft Yahei","Simhei",Helvetica;}
+
+header{height:60px;background:#91D4DA;width:100%;}
+header>.triangle{width:12px;height:12px;border-left: 2px solid #FFF;border-bottom: 2px solid #FFF;display: inline-block;
+	transform:rotate(45deg);margin-left: 10px;}
+header>.back{font-size: 1.3rem;color:#FFF;margin-left: 5px;}
+header>h1{display: inline-block;color:white;position: relative;left: 50%;margin-left: -64px;}
