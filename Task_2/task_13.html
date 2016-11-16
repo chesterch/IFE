@@ -12,16 +12,16 @@
 	<script>
 		(function(){
 			//原生的js实现功能
-			// var button=document.getElementById('button');
-			// button.onclick=function(){
-			// 	var str=document.getElementById('aqi-input').value;
-			// 	document.getElementById('aqi-display').innerHTML=str;
-			// }
+			var button=document.getElementById('button');
+			button.onclick=function(){
+				var str=document.getElementById('aqi-input').value;
+				document.getElementById('aqi-display').innerHTML=str;
+			}
 
 			//利用jQuery实现功能
-			$('#button').on('click',function () {
-				$('#aqi-display').text($('#aqi-input').val())
-			})
+ 			//$('#button').on('click',function () {
+ 			//	$('#aqi-display').text($('#aqi-input').val())
+ 			//})
 		})();
 	</script>
 </body>
