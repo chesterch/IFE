@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>No.13</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<label>请输入广州今天空气质量:<input type="text" id="aqi-input"></label>
+	<button id="button">确认填写</button>
+	<div>你输入的值是:<span id="aqi-display">尚无录入</span></div>
+	<script>
+		(function(){
+			//原生的js实现功能
+			// var button=document.getElementById('button');
+			// button.onclick=function(){
+			// 	var str=document.getElementById('aqi-input').value;
+			// 	document.getElementById('aqi-display').innerHTML=str;
+			// }
 
+			//利用jQuery实现功能
+			$('#button').on('click',function () {
+				$('#aqi-display').text($('#aqi-input').val())
+			})
+		})();
+	</script>
+</body>
+</html>
