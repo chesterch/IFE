@@ -4,6 +4,10 @@
 	<meta charset="UTF-8" />
 	<title>No.18</title>
 	<style>
+		div{
+			margin-top: 10px;
+			cursor: default;
+		}
 		.showNum{
 			color: white;
 			background-color: #FE1111;
@@ -14,11 +18,11 @@
 	</style>
 </head>
 <body>
-	<input type="text" id="inputNum"/>
-	<input type="button" value="左侧入" id="inLeft"></input>
-	<input type="button" value="右侧入" id="inRight"></input>
-	<input type="button" value="左侧出" id="outLeft"></input>
-	<input type="button" value="右侧出" id="outRight"></input>
+	<input type="text" id="inputNum" placeholder="请输入一个数字" />
+	<input type="button" value="左侧入" id="inLeft" />
+	<input type="button" value="右侧入" id="inRight" />
+	<input type="button" value="左侧出" id="outLeft" />
+	<input type="button" value="右侧出" id="outRight" />
 	<div id="renderData"></div>
 	<script src="task_18.js"></script>
 </body>
