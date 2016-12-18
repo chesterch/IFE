@@ -15,14 +15,21 @@
 			display: inline-block;
 			margin-right: 5px;
 		}
+		p{
+			display: inline-block;
+			color: #bbb;
+			font-size: 0.8em;
+			margin-left: 10px;
+		}
 	</style>
 </head>
 <body>
-	<input type="text" id="inputNum" placeholder="请输入一个正整数" />
+	<input type="text" id="inputNum" placeholder="请输入一个数字" />
 	<input type="button" value="左侧入" id="inLeft" />
 	<input type="button" value="右侧入" id="inRight" />
 	<input type="button" value="左侧出" id="outLeft" />
 	<input type="button" value="右侧出" id="outRight" />
+	<p>点击删除也可删除数字</p>
 	<div id="renderData"></div>
 	<script src="task_18.js"></script>
 </body>
