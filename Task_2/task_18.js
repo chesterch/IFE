@@ -22,6 +22,7 @@ var reg=new RegExp(/^[0-9]+$/);
 //左侧入
 function btn_inLeft(){
 	var inputNum=document.getElementById('inputNum').value;
+	inputNum=inputNum.replace(/\b(0+)/gi,"");
 	if (reg.test(inputNum)) {
 		data.unshift(inputNum);
 		renderData();
@@ -33,7 +34,9 @@ function btn_inLeft(){
 //右侧入
 function btn_inRight(){
 	var inputNum=document.getElementById('inputNum').value;
+	inputNum=inputNum.replace(/\b(0+)/gi,"");
 	if (reg.test(inputNum)) {
+		inputNum=parseInt(inputNum);
 		data.push(inputNum);
 		renderData();
 	}else{
@@ -65,11 +68,30 @@ function btn_outRight(){
 	}
 }
 
+//点击删除
+//先移除点击的数字，然后再遍历删除后的DIV
+function span_del(e){
+	alert("删除的数字是:"+e.target.innerHTML);
+	e.target.parentNode.removeChild(e.target);
+	delete e.target;
+	iterator();
+}
+
+//遍历删除后的DIV，并保存到data数组中。最后删除data最后一项
+function iterator(){
+	var spans=document.getElementsByTagName('span');
+	for(var i=0;i<spans.length;i++){
+		data[i]=spans[i].innerHTML;
+	}
+	data.pop();
+	renderData();
+}
+
 //渲染数组
 function renderData(){
 	var text='';
 	for(var item in data){
-		text+='<div class="showNum">'+data[item]+'</div>';
+		text+='<span class="showNum">'+data[item]+'</span>';
 	}
 	render.innerHTML=text;
 }
@@ -80,6 +102,7 @@ function init(){
 	addEventHandler(inRight,'click',btn_inRight);
 	addEventHandler(outLeft,'click',btn_outLeft);
 	addEventHandler(outRight,'click',btn_outRight);
+	addEventHandler(render,'click',span_del);
 }
 
 init();
