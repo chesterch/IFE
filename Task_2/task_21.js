@@ -1,7 +1,7 @@
 var preOT=document.getElementById('preOT');
 var inOT=document.getElementById('inOT');
 var postOT=document.getElementById('postOT');
-var arr=[];
+var arr=[],renderArr=[];
 
 //跨浏览器绑定事件
 function addEventHandler(ele,event,handler){
@@ -26,40 +26,59 @@ function convert(){
 	for(var i=0;i<item_3.length;i++){arr.push(item_3[i]);}
 }
 
-//变换颜色
-function changeColor(node){
-	node.style.background="red";
+//渲染颜色
+function renderDate(color){
+	var i=0;
+	function changeColor(){
+		arr[renderArr[i]-1].style.background=color;
+		i++;
+		if(i<arr.length){setTimeout(changeColor,500);}
+	}
+	changeColor();
 }
 
 //前序遍历
 function preOrderTraversal(index){
 	var childL=index*2;
 	if(index>arr.length){return;}
-	changeColor(arr[index-1]);
-	console.log(index);
+	renderArr.push(index);
 	preOrderTraversal(childL);
 	preOrderTraversal(childL+1);
 }
 
 //中序遍历
 function inOrderTraversal(index){
-	
+	var childL=index*2;
+	if(index>arr.length){return;}
+	inOrderTraversal(childL);
+	renderArr.push(index);
+	inOrderTraversal(childL+1);
 }
 
 //后序遍历
-function postOrderTraversal(){
-
+function postOrderTraversal(index){
+	var childL=index*2;
+	if(index>arr.length){return;}
+	postOrderTraversal(childL);
+	postOrderTraversal(childL+1);
+	renderArr.push(index);
 }
 
 //执行函数
 function executePre(){
+	renderArr=[];
 	preOrderTraversal(1);
+	renderDate("red");
 }
 function executeIn(){
+	renderArr=[];
 	inOrderTraversal(1);
+	renderDate("green");
 }
 function executePost(){
+	renderArr=[];
 	postOrderTraversal(1);
+	renderDate("white");
 }
 
 //初始化函数
