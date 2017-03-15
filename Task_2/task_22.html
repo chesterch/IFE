@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>NO.22</title>
+	<style>
+		span{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+		div{
+			background: #FFF;
+			font-size: 0.8em;
+			position: relative;
+		}
+		#container{
+			width: 800px;
+			height: 130px;
+			border: 1px solid;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.item_1{
+			width: 380px;
+			height: 100px;
+			border: 1px solid;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.item_1_2{width: 310px;}
+		.item_1_3{width: 70px;}
+		.item_2{
+			width: 150px;
+			height: 70px;
+			border: 1px solid;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.item_1_1_1{width: 200px;}
+		.item_1_1_2{width: 50px;}
+		.item_1_1_3{width: 95px;}
+		.item_1_2_1{width: 130px;}
+		.item_3{
+			width: 40px;
+			height: 40px;
+			border: 1px solid;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.item_1_2_1_1{width:30px;}
+		.item_1_2_1_2{width: 45px;}
+		.item_1_2_1_3{width: 25px;}
+		.item_4{
+			width: 25px;
+			height: 15px;
+			border: 1px solid;
+		}
+		#btns{
+			margin: 8px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"><span>Super</span>
+		<div class="item_1 item_1_1"><span>Food</span>
+			<div class="item_2 item_1_1_1"><span>Fruit</span>
+				<div class="item_3"><span>Pear</span></div>
+				<div class="item_3"><span>Peach</span></div>
+				<div class="item_3"><span>Apple</span></div>
+				<div class="item_3"><span>Orange</span></div>
+			</div>
+			<div class="item_2 item_1_1_2"><span>Carota</span></div>
+			<div class="item_2 item_1_1_3">
+				<div class="item_3"><span>Fish</span></div>
+				<div class="item_3"><span>Meat</span></div>
+			</div>
+		</div>
+		<div class="item_1 item_1_2"><span>Note</span>
+			<div class="item_2 item_1_2_1"><span>Human</span>
+				<div class="item_3 item_1_2_1_1"><span>Man</span></div>
+				<div class="item_3 item_1_2_1_2"><span>Woman</span></div>
+				<div class="item_3 item_1_2_1_3"><span>Kid</span></div>
+			</div>
+			<div class="item_2"><span>School</span>
+				<div class="item_3"><span>Book</span>
+					<div class="item_4"><span>Pen</span></div>
+				</div>	
+				<div class="item_3"><span>Desk</span></div>
+				<div class="item_3"><span>Chalk</span></div>
+			</div>
+		</div>
+		<div class="item_1 item_1_3">Tool</div>
+	</div>
+	<div id="btns">
+		<input id="preOT" type="button" value="前序遍历" />
+		<input id="inOT" type="button" value="中序遍历" />
+		<input id="postOT" type="button" value="后序遍历" />
+	</div>
+	<script src="task_22.js"></script>
+</body>
+</html>
