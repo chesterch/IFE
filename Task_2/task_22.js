@@ -44,21 +44,8 @@ function BFS(node){
 	for (var i = 0; i < arrLen.length; i++) {
 		renderArr.push(node.childNodes[arrLen[i]]);
 		setTimeout(BFS,1,node.childNodes[arrLen[i]]);
-		//BFS(node.childNodes[arrLen[i]]);
 	}
 }
-
-// //使用兼容性代码，向回调函数传递一个参数，还可以兼容IE9及以前的版本
-// if (document.all && !window.setTimeout.isPolyfill) {
-//   var __nativeST__ = window.setTimeout;
-//   window.setTimeout = function (vCallback, nDelay /*, argumentToPass1, argumentToPass2, etc. */) {
-//     var aArgs = Array.prototype.slice.call(arguments, 2);
-//     return __nativeST__(vCallback instanceof Function ? function () {
-//       vCallback.apply(null, aArgs);
-//     } : vCallback, nDelay);
-//   };
-//   window.setTimeout.isPolyfill = true;
-// }
 
 //渲染Div
 function renderData(color){
