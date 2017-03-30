@@ -11,12 +11,13 @@ function addEventHandler(ele,event,handler){
 	}
 }
 
-function selectEle() {
+function selectEle(event) {
+	event.target.style.backgroundColor="red";
 	
 }
 
 function init(){
-	addEventHandler("click",selectEle);
+	addEventHandler("click",selectEle,false);
 }
 
 init();
