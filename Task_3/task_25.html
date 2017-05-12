@@ -9,32 +9,88 @@
             padding:0;
             outline:0;
         }
-        .forms{
-            width:400px;
-            margin:0 auto;
+        @media only screen and (min-width:480px){
+            .forms{
+                width:400px;
+                margin:0 auto;
+            }
+            label{
+                width:80px;
+                text-align: right;
+                display:inline-block;
+                margin-right: 30px;
+            }
+            input{
+                width:250px;
+                height:1.5em;
+                margin:5px;
+                border:1px solid #bbb;
+                border-radius:3px;
+                padding:2px;
+                padding-left:4px;
+            }
+            .submit{
+                width:80px;
+                height:2em;
+                background-color:#38F;
+                border-color:#38F;
+                color:#FFF;
+                margin-left:175px;
+            }
+            .place{
+                font-size: 0.7em;
+                color:#AAA;
+                margin-left:110px;
+            }
+            .wrong{
+                font-size: 0.7em;
+                color:#F00;
+                margin-left:110px;
+            }
+            .valid{
+                font-size: 0.7em;
+                color:#0F0;
+                margin-left:110px;
+            }
         }
-        label{
-            width:80px;
-            text-align: right;
-            display:inline-block;
-            margin-right: 30px;
-        }
-        input{
-            width:250px;
-            height:1.5em;
-            margin:5px;
-            border:1px solid #bbb;
-            border-radius:3px;
-            padding:2px;
-            padding-left:4px;
-        }
-        .submit{
-            width:80px;
-            height:2em;
-            background-color:#38F;
-            border-color:#38F;
-            color:#FFF;
-            margin-left:175px;
+        @media only screen and (max-device-width: 480px){
+            .forms{
+                width:100%;
+
+            }
+            label{
+                width:20%;
+                text-align: right;
+                display:inline-block;
+                margin-right: 5%;
+                font-size: 1.5em;
+            }
+            input{
+                width:65%;
+                margin:5px;
+                border:1px solid #bbb;
+                border-radius:3px;
+                padding:2px;
+                padding-left:4px;
+                font-size: 1.5em;
+            }
+            .submit{
+                width:100px;
+                background-color:#38F;
+                border-color:#38F;
+                color:#FFF;
+                margin-left:calc(65% - 90px);
+            }
+            .place{
+                font-size: 1em;
+                color:#AAA;
+                margin-left:25%;
+            }
+            .wrong{
+                font-size:1em;
+                color:#F00;
+                margin-left:25%;
+            }
         }
     </style>
 </head>
@@ -63,5 +119,7 @@
         <div><label>手机</label><input type="tel" name="tel"></div>
         <div><label></label><input class="submit" type="submit" value="提交"></div>
     </div>
+
+    <script src="task_25.js"></script>
 </body>
 </html>
